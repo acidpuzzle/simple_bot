@@ -154,3 +154,7 @@ fabric.properties
 # no Sqlite db files
 
 *.sqlite
+
+#Telegramm token
+
+token.py

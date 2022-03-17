@@ -4,6 +4,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 from users import UserDataBase
 import help
 
+
 # Enable logging
 logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(name)s - %(funcName)s() - %(message)s',
@@ -129,7 +130,7 @@ def main() -> None:
     admins = allowed_users.list_user_in_group('admin')
 
     # Create the Updater and pass it your bot's token.
-    updater = Updater("695336312:AAFM16fPwyz-JIOra7DawJ46dXQo_qvolOE")
+    updater = Updater("Token here")
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
